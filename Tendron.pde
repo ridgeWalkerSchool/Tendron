@@ -8,6 +8,8 @@ public void setup()
 public void draw()
 {
   background(255);
+  ellipse(250, 250, 420, 420);
+  rect(150, 450, 200, 200);
   Cluster c = new Cluster(50, 250, 250); // initial number of segments in the tendril and starting (x,y) coordinate
 }
 public void mousePressed()
